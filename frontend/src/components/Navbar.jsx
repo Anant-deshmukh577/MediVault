@@ -176,7 +176,7 @@ const Navbar = () => {
           <NavLink to="/about" className={linkClass} ref={(el) => (navLinksRef.current[2] = el)}>ABOUT</NavLink>
           <NavLink to="/contact" className={linkClass} ref={(el) => (navLinksRef.current[3] = el)}>CONTACT</NavLink>
 
-          <a href="http://localhost:5174" target="_blank" rel="noopener noreferrer" className="ml-1 inline-flex items-center rounded-full border border-gray-200 bg-white px-3.5 py-1.5 text-sm text-slate-700 hover:bg-gray-50 transition" ref={(el) => (navLinksRef.current[4] = el)}>
+          <a href="https://medivault-admin-cw6n.onrender.com" target="_blank" rel="noopener noreferrer" className="ml-1 inline-flex items-center rounded-full border border-gray-200 bg-white px-3.5 py-1.5 text-sm text-slate-700 hover:bg-gray-50 transition" ref={(el) => (navLinksRef.current[4] = el)}>
             Admin Panel
           </a>
         </nav>
