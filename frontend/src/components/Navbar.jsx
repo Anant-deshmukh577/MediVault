@@ -311,7 +311,7 @@ const Navbar = () => {
             CONTACT
           </NavLink>
 
-          <a onClick={() => setShowMenu(false)} href="http://localhost:5174" target="_blank" rel="noopener noreferrer" className="mt-2 inline-flex items-center self-start rounded-full border border-gray-200 bg-white px-4 py-2 text-sm text-slate-700 hover:bg-gray-50 transition">
+          <a onClick={() => setShowMenu(false)} href="https://medivault-admin-cw6n.onrender.com" target="_blank" rel="noopener noreferrer" className="mt-2 inline-flex items-center self-start rounded-full border border-gray-200 bg-white px-4 py-2 text-sm text-slate-700 hover:bg-gray-50 transition">
             Admin Panel
           </a>
 
