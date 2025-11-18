@@ -6,7 +6,7 @@ export const AppContext = createContext();
 
 const AppContextProvider = (props) => {
   const currencySymbol = "₹";
-  const backendUrl = import.meta.env.VITE_BACKEND_URL;
+  const backendUrl = https://medivault-backend-beq1.onrender.comL;
 
   const [doctors, setDoctors] = useState([]);
   const [token, setToken] = useState(
